@@ -1,0 +1,142 @@
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact | Kaleeswaran</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="theme-dark">
+  <!-- Navigation -->
+  <header class="nav">
+    <div class="brand">
+      <div class="brand-mark"></div>
+      <span class="brand-text">Kaleeswaran</span>
+    </div>
+    <nav class="nav-links">
+      <a href="home.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="projects.html" class="nav-link">Projects</a>
+      <a href="contact.html" class="nav-link active">Contact</a>
+    </nav>
+    <button id="themeToggle" class="icon-btn" aria-label="Toggle theme"><span class="icon-sun"></span></button>
+  </header>
+
+  <!-- Wave background -->
+  <div class="wave-bg">
+    <svg class="waves" viewBox="0 0 1200 200" preserveAspectRatio="none">
+      <path d="M0,120 C240,160 360,40 600,80 C840,120 960,40 1200,80 L1200,200 L0,200 Z"></path>
+    </svg>
+    <svg class="waves alt" viewBox="0 0 1200 200" preserveAspectRatio="none">
+      <path d="M0,140 C240,180 360,60 600,100 C840,140 960,60 1200,100 L1200,200 L0,200 Z"></path>
+    </svg>
+  </div>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact page">
+    <div class="page-head">
+      <h2 class="reveal">Get in touch</h2>
+      <p class="section-subtitle reveal">Hover the cards to flip and reveal details</p>
+    </div>
+
+    <div class="contact-grid">
+      <!-- Email -->
+      <div class="contact-card">
+        <div class="card-inner">
+          <div class="card-front">
+            <div class="contact-icon email"></div>
+            <h3>Email</h3>
+          </div>
+          <div class="card-back">
+            <h3>Email</h3>
+            <p><a href="mailto:kaleessultan415@gmail.com">kaleessultan415@gmail.com</a></p>
+            <img src="assets/email-logo.png" alt="Email Logo" class="logo">
+          </div>
+        </div>
+      </div>
+
+      <!-- WhatsApp -->
+      <div class="contact-card">
+        <div class="card-inner">
+          <div class="card-front">
+            <div class="contact-icon whatsapp"></div>
+            <h3>WhatsApp</h3>
+          </div>
+          <div class="card-back">
+            <h3>WhatsApp</h3>
+            <p><a href="https://wa.me/916379953691" target="_blank">+91 63799 53691</a></p>
+            <img src="assets/whatsapp-logo.png" alt="WhatsApp Logo" class="logo">
+          </div>
+        </div>
+      </div>
+
+      <!-- Instagram -->
+      <div class="contact-card">
+        <div class="card-inner">
+          <div class="card-front">
+            <div class="contact-icon insta"></div>
+            <h3>Instagram</h3>
+          </div>
+          <div class="card-back">
+            <h3>Instagram</h3>
+            <p><a href="https://instagram.com/_kaleez_" target="_blank">@_kaleez_</a></p>
+            <img src="assets/instagram-logo.png" alt="Instagram Logo" class="logo">
+          </div>
+        </div>
+      </div>
+
+      <!-- GitHub -->
+      <div class="contact-card">
+        <div class="card-inner">
+          <div class="card-front">
+            <div class="contact-icon github"></div>
+            <h3>GitHub</h3>
+          </div>
+          <div class="card-back">
+            <h3>GitHub</h3>
+            <p><a href="https://github.com/kaleez17" target="_blank">github.com/kaleez17</a></p>
+            <img src="assets/github-logo.png" alt="GitHub Logo" class="logo">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <form id="contactForm" class="contact-form reveal">
+      <div class="field">
+        <label>Name</label>
+        <input id="cname" type="text" placeholder="Your name" />
+      </div>
+      <div class="field">
+        <label>Email</label>
+        <input id="cemail" type="email" placeholder="you@example.com" />
+      </div>
+      <div class="field">
+        <label>Message</label>
+        <textarea id="cmsg" rows="5" placeholder="Say hello..."></textarea>
+      </div>
+      <div class="actions">
+        <button type="submit" class="btn btn-primary" data-ripple>Send</button>
+        <button type="button" id="contactClear" class="btn btn-ghost" data-ripple>Clear</button>
+      </div>
+      <p id="contactStatus" class="contact-status"></p>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>© 2025 Kaleeswaran. All rights reserved.</div>
+      <div class="footer-links">
+        <a href="https://github.com/kaleez17" target="_blank" class="link">GitHub</a>
+        <a href="projects.html" class="link">Projects</a>
+        <a href="contact.html" class="link">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
